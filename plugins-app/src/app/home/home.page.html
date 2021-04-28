@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+     Plugins App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<h3>Flashlight</h3>
+<ion-button (click)="Flashlight()">Flashlight</ion-button>
+<hr>
+<h2>GPS</h2>
+<ion-button (click)="GPS()">GPS</ion-button>
+<br>
+{{lat}},{{longitude}}
+</ion-content>
